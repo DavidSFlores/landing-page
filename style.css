@@ -177,7 +177,7 @@ input{
         visibility: hidden;
     }
   }
-    @media(max-device-width:720px){
+    @media(max-width:720px){
         .content{
             height:200px;
             width: 200px;
@@ -186,13 +186,9 @@ input{
         .fotos{
             max-height:200px;
             max-width: 200px;
-           
           }
-    
      }
-
-    
-     }
+}
     
 /* font-family:'Leckerli One', cursive; */
 /* font-family: 'Dancing Script', cursive; */
