@@ -177,7 +177,7 @@ input{
         visibility: hidden;
     }
   }
-    @media(max-width:768px){
+    @media(max-width:720px){
       .content{
           visibility:hidden;
         }
