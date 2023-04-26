@@ -187,7 +187,7 @@ input{
           }
     
      }
-    @media(max-device-width:800px){
+    @media(max-width:800px){
         .content{
             visibility:hidden;
           }
