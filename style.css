@@ -176,7 +176,12 @@ input{
     .content{
         visibility: hidden;
     }
-    
+  }
+    @media(max-width:768px){
+      .content{
+          visibility:hidden;
+        }
+        
      }
 /* font-family:'Leckerli One', cursive; */
 /* font-family: 'Dancing Script', cursive; */
