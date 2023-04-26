@@ -1,0 +1,191 @@
+head{
+    text-align: right;
+}
+body{
+
+    background-color:#edd9dd ; 
+    /* color: #4B0C1D ou #b06a6a */
+    color: #cea3a3;
+    text-align: left;
+    
+    margin: 0px 0px 0px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color:#f5e7e9 ; */
+}
+
+h1{
+    margin-left:20px;
+    font-family: 'Cannia', sans-serif;
+    font-size: 100px;
+    padding-top: 20px;
+    color:#b06a6a;
+    margin-bottom: -30px;
+    
+
+}
+
+p{
+    
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    opacity: 1;
+}
+.p1{
+    margin-left:20px;
+padding-bottom:15px;
+    font-family: 'Kiona', sans-serif;
+    font-size:40px;
+    margin-top: 10px;
+    color:#b06a6a;
+}
+.p2{
+    margin-left:20px;
+    font-size:50px;
+    font-family: 'Kiona', sans-serif;
+    color: #565656;
+}
+.p3{
+    margin-left:20px;
+    font-family: 'Louis George Café Light', sans-serif;
+    color:#b06a6a;
+}
+.p4{
+    margin-left:20px;
+    padding-top:15px;
+    font-size:50px;
+    font-family: 'Kiona', sans-serif;
+    color: #565656;
+    margin-bottom:-20px;
+}
+.Redes-sociais{
+    font-size:50px;
+   padding-top: 90px;
+    list-style: none;
+
+    text-align: left;
+}
+.redes{
+display: inline; 
+}
+.redes:hover{
+    opacity:0.7; 
+
+}
+
+.Logotipo{
+    max-width:300px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+    margin-top:-50;
+    margin-right:0;
+    margin-bottom:0;
+}
+.servicos{
+    margin-left:20px;
+    font-weight:bold;
+    font-family: 'Louis George Café Light', sans-serif;
+    font-size:30px;
+    color:#b06a6a;
+}
+.content{
+   
+    
+    height: 100vh;
+    width: 100vw;
+    border-radius: 20px;
+    height:400px;
+    width: 400px;
+    overflow:hidden;
+    position: absolute;
+    top:60%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    
+}
+.fotos{
+
+    max-width:400px;
+    max-height:400px;
+    width: auto;
+    height: auto;
+
+}
+.navigation{
+  
+    position:absolute;
+    bottom: 20px;
+    left: 45%;
+    transform:translate(-50%);
+    display:flex;
+}
+.bar{
+    width:30px;
+    height:10px;
+    border: 2px solid #ffff;
+    margin: 6px;
+    right:50%;
+    transform:translate(70%);
+    border-radius:5px;
+    cursor:pointer;
+    transition:.6s;
+}
+.bar:hover{
+    opacity:0.7;
+    background-color: #b06a6a;
+}
+input{
+    display:none;
+}
+.slides{
+    display:flex;
+    width:700%;
+    height:100%;
+}
+.slide{
+    width:14.3%;
+    transition: .6s;
+}
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+#foto1:checked ~ .s1{
+  margin-left: 0;  
+}
+#foto2:checked ~ .s1{
+    margin-left: -14.3%;  
+  }
+#foto3:checked ~ .s1{
+    margin-left: -28.6%;  
+  }
+#foto4:checked ~ .s1{
+    margin-left: -42.9%;  
+  }
+#foto5:checked ~ .s1{
+    margin-left: -57.2%;  
+  }
+  #foto6:checked ~ .s1{
+    margin-left: -71.5%;  
+  }
+  #foto7:checked ~ .s1{
+    margin-left: -85.8%;  
+  }
+  @media (max-width: 640px){
+    .content{
+        visibility: hidden;
+    }
+    .Logotipo{
+        margin-right: 60px;
+    }
+     }
+/* font-family:'Leckerli One', cursive; */
+/* font-family: 'Dancing Script', cursive; */
+/*font-family: 'Ysabeau', sans-serif;*/
+
+
+/* font-family: 'Cannia', sans-serif; */
+/* font-family: 'Kiona', sans-serif; */
+/* font-family: 'Louis George Café', sans-serif;
+font-family: 'Louis George Café Light', sans-serif; */
