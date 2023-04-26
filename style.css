@@ -184,22 +184,49 @@ input{
     
     @media(max-width:720px){
         .content{
-            visibility:hidden;
+            width: 200px;
+            height: 200px;
+          }
+          .fotos{
+            max-width:200px;
+            height: 200px;
+          }
+          .bar{
+            width: 10px;
+            height:5px;
           }
     
      }
-    @media(max-width:800px){
+     @media(max-width:800px){
         .content{
-            visibility:hidden;
+            width: 250px;
+            height: 250px;
           }
-
-        }
-    @media(max-width:1000px){
-            .content{
-                visibility:hidden;
-              }
+          .fotos{
+            max-width:250px;
+            height: 250px;
+          }
+          .bar{
+            width: 10px;
+            height:10px;
+          }
     
-            }
+     }
+     @media(max-width:950px){
+        .content{
+            width: 250px;
+            height: 250px;
+          }
+          .fotos{
+            max-width:250px;
+            height: 250px;
+          }
+          .bar{
+            width: 10px;
+            height:10px;
+          }
+    
+     }
 
     
     
