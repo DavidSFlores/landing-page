@@ -188,6 +188,12 @@ input{
             visibility:hidden;
           }
     
+     } 
+@media(max-width:1000px){
+        .content{
+            visibility:hidden;
+          }
+    
      }
     
 /* font-family:'Leckerli One', cursive; */
