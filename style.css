@@ -181,6 +181,12 @@ input{
       .content{
           visibility:hidden;
         }
+        @media(max-width:920px){
+        .content{
+            visibility:hidden;
+          }
+    
+     }
         
      }
 /* font-family:'Leckerli One', cursive; */
