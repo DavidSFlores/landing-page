@@ -183,9 +183,8 @@ input{
     
     @media(max-width:720px){
         .content{
-            visibility:hidden;
+            visibility: hidden;
           }
-    
      }
      @media(max-width:800px){
         .content{
