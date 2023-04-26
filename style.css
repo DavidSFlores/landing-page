@@ -172,8 +172,7 @@ input{
   #foto7:checked ~ .s1{
     margin-left: -85.8%;  
   }
- 
-@media (max-width: 640px){
+  @media (max-width: 640px){
     .content{
         visibility: hidden;
     }
@@ -227,9 +226,10 @@ input{
           }
     
      }
+   
+    
 
-    
-    
+
 /* font-family:'Leckerli One', cursive; */
 /* font-family: 'Dancing Script', cursive; */
 /*font-family: 'Ysabeau', sans-serif;*/
