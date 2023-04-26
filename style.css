@@ -181,7 +181,13 @@ input{
     }
 }
     
-    @media(max-width:720px){
+@media(max-width:720px){
+        .content{
+            visibility:hidden;
+          }
+    
+     }
+     @media(max-width:800px){
         .content{
             width: 200px;
             height: 200px;
@@ -193,21 +199,6 @@ input{
           .bar{
             width: 10px;
             height:5px;
-          }
-    
-     }
-     @media(max-width:800px){
-        .content{
-            width: 250px;
-            height: 250px;
-          }
-          .fotos{
-            max-width:250px;
-            height: 250px;
-          }
-          .bar{
-            width: 10px;
-            height:10px;
           }
     
      }
