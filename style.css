@@ -172,23 +172,34 @@ input{
   #foto7:checked ~ .s1{
     margin-left: -85.8%;  
   }
-  @media (max-width: 640px){
+ @media (max-width: 640px){
     .content{
         visibility: hidden;
     }
-  }
+    .Logotipo{
+        margin-right: 60px;
+    }
+}
+    
     @media(max-width:720px){
         .content{
-            height:200px;
-            width: 200px;
-           
+            visibility:hidden;
           }
-        .fotos{
-            max-height:200px;
-            max-width: 200px;
-          }
+    
      }
-}
+    @media(max-device-width:800px){
+        .content{
+            visibility:hidden;
+          }
+
+        }
+    @media(max-width:1000px){
+            .content{
+                visibility:hidden;
+              }
+    
+            }
+    
     
 /* font-family:'Leckerli One', cursive; */
 /* font-family: 'Dancing Script', cursive; */
