@@ -185,20 +185,7 @@ input{
         .content{
             visibility:hidden;
           }
-    
-     }
-          @media (max-height: 640px){
-        .content{
-            visibility: hidden;
-        }
-    }
-         @media(max-height:720px){
-        .content{
-            visibility:hidden;
-          }
-    
-     }
-        
+        } 
      }
 /* font-family:'Leckerli One', cursive; */
 /* font-family: 'Dancing Script', cursive; */
