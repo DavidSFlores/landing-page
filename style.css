@@ -190,16 +190,7 @@ input{
           }
     
      }
- @media(max-width:800px){
-        .content{
-            visibility:hidden;
-          }
-    
-     } 
-@media(max-width:1000px){
-        .content{
-            visibility:hidden;
-          }
+
     
      }
     
