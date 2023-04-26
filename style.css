@@ -179,7 +179,14 @@ input{
   }
     @media(max-device-width:720px){
         .content{
-            visibility:hidden;
+            height:200px;
+            width: 200px;
+           
+          }
+        .fotos{
+            max-height:200px;
+            max-width: 200px;
+           
           }
     
      }
