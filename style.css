@@ -183,6 +183,12 @@ input{
           }
     
      }
+ @media(max-width:1080px){
+        .content{
+            visibility:hidden;
+          }
+    
+     }
     
 /* font-family:'Leckerli One', cursive; */
 /* font-family: 'Dancing Script', cursive; */
